@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Header styling */
+header {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+}
+
+header .logo {
+    font-size: 14px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+    border-right: 1px solid #939191;
+    padding-right: 20px;
+    font-size: 16px; 
+}
+
+nav ul li {
+    list-style: none;
+    color: #1E1B1B;
+
+}
+
+nav .contact-detail {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+nav .contact-detail .contact-text p {
+    font-size: 13px;
+    line-height: 16px;
+}
+
+/* main styling */
+
+main {
+    height: 91vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container {
+    height: 80%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+main .container .left-text {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .container .left-text .content {
+    width: 80%;
+}
+
+main .container .left-text h1 {
+    width: 80%;
+    font-size: 40px;
+    color: #1E1B1B;
+
+}
+
+button {
+    padding: 8px 20px;
+    gap: 8px;
+    background-color: #FF6433;
+    border-radius: 12px;
+    border-color: white;
+    box-shadow: none;
+    line-height: 20px;
+    margin-top: 21px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+main .container .left-text p {
+    font-size: 16px;
+    color: #939191;
+    margin-top: 25px;
+    margin-bottom: 0px;
+
+}
+
+main .container .right-img {
+    width: 50%;
+    height: 100%;
+    background-image: url('/image/Image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+main .container .right-img .service {
+    position: absolute;
+    left: -18%;
+    top: 0;
+}
+
+main .container .right-img .rating {
+    position: absolute;
+    right: -16%;
+    bottom: 0;
+}
+
