@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* Header styling */
+/* header styling */
 header {
     width: 80%;
     display: flex;
@@ -114,7 +114,7 @@ main .container .left-text p {
 main .container .right-img {
     width: 50%;
     height: 100%;
-    background-image: url('/image/Image.png');
+    background-image: url('../image/Image.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
